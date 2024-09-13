@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+@import url(reset.css);
+
+body{
+    font-family: Epilogue;
+    margin: 0;
+}
+
+header{
+    max-width: 1358.74px;
+
+    margin: 0 auto;
+    padding: 21px 40px;
+
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+}
+
+.header_logo{
+    padding-right: 62.24px;
+}
+
+header nav{
+    width: 1213px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+header nav ul li a{
+    font-weight: 500;
+    font-size: 14px;
+
+    color: #686868;
+    text-decoration: none;
+}
+header nav ul li a img{
+    padding-left: 9px;
+}
+
+.register_btn{
+    padding: 13px 22px;
+    border: 1.5px solid #686868;
+    border-radius: 14px;
+}
+
+.content{
+    margin: 46px auto;
+
+    width: 1145px;
+    height: 640px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.content h1{
+    width: 540px;
+    margin-bottom: 48px;
+    
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    
+    letter-spacing: -1.11111px;
+    
+    color: #151515;
+}
+
+.content p{
+    width: 540px;
+    margin-bottom: 51px;
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #686868;
+}
+
+.content button{
+    padding: 15px 28px 13px 31px;
+    margin-bottom: 108px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    
+    text-align: center;
+    letter-spacing: -0.25px;
+    
+    color: #FAFAFA;
+    background: #151515;
+    border-radius: 15px;
+}
+
+.content .link{
+    width: 477.63px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
